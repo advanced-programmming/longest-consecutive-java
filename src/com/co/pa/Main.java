@@ -23,8 +23,7 @@ public class Main {
     }
 
     public static void main (String[] args) {
-        //6, 7, 3, 1, 100, 102, 6, 12 //5, 6, 1, 2, 8, 9, 7
-        int[] arr = new int[]{6, 7, 3, 1, 100, 102, 6, 12};
+        int[] arr = new int[]{6, 7, 3, 1, 100, 102, 6, 12}; //6, 7, 3, 1, 100, 102, 6, 12 //5, 6, 1, 2, 8, 9, 7
         System.out.print(LongestConsecutive(arr));
     }
 }
